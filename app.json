@@ -22,7 +22,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aykutffmpegtest.app"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ade970db-311c-41b0-b04e-277c49759f52"
+      }
+    },
+    "owner": "4ykut"
   }
 }
